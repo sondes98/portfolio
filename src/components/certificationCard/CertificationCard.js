@@ -10,11 +10,7 @@ class CertificationCard extends Component {
       <Fade bottom duration={2000} distance="20px">
         <div className="cert-card">
           <div className="content">
-            <a
-              // href={certificate.certificate_link}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <href target="_blank" rel="noopener noreferrer">
               <div className="content-overlay"></div>
               <div
                 className="cert-header"
@@ -31,7 +27,7 @@ class CertificationCard extends Component {
                   Certificate
                 </h3>
               </div>
-            </a>
+            </href>
           </div>
           <div className="cert-body">
             <h2 className="cert-body-title" style={{ color: theme.text }}>

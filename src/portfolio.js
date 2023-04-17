@@ -9,7 +9,7 @@ const seo = {
   description:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   og: {
-    title: "Sondes AHmed Portfolio",
+    title: "Sondes Ahmed Portfolio",
     type: "website",
     url: "http://sondesahmed.com/",
   },
@@ -19,7 +19,7 @@ const seo = {
 const greeting = {
   title: "Sondes Ahmed",
   logo_name: "A.Sondes",
-  // nickname: "Sondes",
+  nickname: "Interested in learning & knowing more",
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
@@ -78,7 +78,12 @@ const skills = {
     {
       title: "Software Engineering Student",
       fileName: "Engineer",
-      skills: [],
+      skills: [
+        "⚡ Prospective software engineer, I have a strong passion for the vast and dynamic world of the web.",
+        "⚡ Eager to dive into web development, explore its boundless potential, and utilize my skills to create innovative and impactful solutions for the web.",
+        "⚡ Seeking new challenges and opportunities to further enhance my programming skills."
+
+      ],
       softwareSkills: [
         // {
         //   skillName: "Tensorflow",
@@ -93,8 +98,8 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Creating application backend in Node, Express & Mongo",
+        "⚡ Building responsive website front end using React-Redux.",
+        "⚡ Creating application backend in Node, Express & Mongo.",
       ],
       softwareSkills: [
         {
@@ -153,7 +158,7 @@ const skills = {
       title: "DevOps",
       fileName: "CloudInfraImg",
       skills: [
-        // "⚡ Experience working on multiple cloud platforms",
+        "⚡initiated a DevOps approach with a specific roadmap.",
         // "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
         // "⚡ Deploying deep learning models on cloud to use on mobile devices",
         // "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
@@ -326,7 +331,7 @@ const projectsHeader = {
   title: "Projects",
   description:
     "My projects makes use of vast variety of latest technology tools.",
-  avatar_image_path: "projects_image.svg",
+  avatar_image_path: "setting.png",
 };
 
 // Contact Page
@@ -335,7 +340,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "email.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "I am available on almost every social media. You can message me, I will reply within 24 hours.",
   },
 
   addressSection: {

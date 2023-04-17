@@ -61,7 +61,7 @@ class Projects extends Component {
           theme={theme}
         />
 
-        Publications 
+        {/* Publications  */}
         {/* {publications.data.length > 0 ? (
           <div className="basic-projects">
             <Fade bottom duration={2000} distance="40px">

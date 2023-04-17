@@ -158,7 +158,7 @@ const skills = {
       title: "DevOps",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡initiated a DevOps approach with a specific roadmap.",
+        "⚡initiated to DevOps with a specific roadmap.",
         // "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
         // "⚡ Deploying deep learning models on cloud to use on mobile devices",
         // "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",

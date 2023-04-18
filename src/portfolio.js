@@ -23,7 +23,7 @@ const greeting = {
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
-    "https://drive.google.com/file/d/1epFTONAa47aiIW_7tiT6C2M8wpavlb1Y/view?usp=share_link",
+    "https://drive.google.com/file/d/1ZOhwbEYarpJCBCl7mpL_UGd5rZpvmkyY/view?usp=sharing",
   portfolio_repository: "https://github.com/sondes98",
   githubProfile: "https://github.com/sondes98",
 };

@@ -23,7 +23,7 @@ const greeting = {
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
-    "https://drive.google.com/file/d/1ZOhwbEYarpJCBCl7mpL_UGd5rZpvmkyY/view?usp=sharing",
+    "https://drive.google.com/file/d/1ZOhwbEYarpJCBCl7mpL_UGd5rZpvmkyY/view?usp=drive_link",
   portfolio_repository: "https://github.com/sondes98",
   githubProfile: "https://github.com/sondes98",
 };
@@ -300,23 +300,23 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
+  subtitle: "Work and Internship",
   description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
-  header_image_path: "experience.svg",
+    "Passionate aspiring full stack developer dedicated to crafting seamless user experiences through creative problem-solving. Explore my journey of growth and innovation in web development.",
+  header_image_path: "experience.png",
   sections: [
     {
       title: "intership",
       experiences: [
         {
-          title: "METS",
-          company: "Cars company",
-          company_url: "https://legatohealthtech.com/",
-          logo_path: "legato_logo.png",
-          duration: "June 2020 - Aug 2021",
-          location: "Hyderabad, Telangana",
+          title: "Web Developer",
+          company: "Formevo",
+          company_url: "",
+          // logo_path: "",
+          duration: "08/2023 - 09/2023",
+          location: "Tunis",
           description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
+            "During my internship, I actively contributed to an engaging e-learning project by designing and developing user-friendly interfaces. Through this experience, I honed my skills in crafting intuitive user interfaces and collaborating within a dynamic team environment. My work played a vital role in enhancing the project's overall functionality and user experience.",
           color: "#0879bf",
         },
       ],

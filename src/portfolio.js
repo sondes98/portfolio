@@ -23,7 +23,7 @@ const greeting = {
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
-    "https://drive.google.com/file/d/1Q4ygx1-93W1Z0EJ_BgRG45g8v1avI-WC/view?usp=sharing",
+    "https://drive.google.com/file/d/1ZOhwbEYarpJCBCl7mpL_UGd5rZpvmkyY/view?usp=sharing",
   portfolio_repository: "https://github.com/sondes98",
   githubProfile: "https://github.com/sondes98",
 };
@@ -81,8 +81,7 @@ const skills = {
       skills: [
         "⚡ Prospective software engineer, I have a strong passion for the vast and dynamic world of the web.",
         "⚡ Eager to dive into web development, explore its boundless potential, and utilize my skills to create innovative and impactful solutions for the web.",
-        "⚡ Seeking new challenges and opportunities to further enhance my programming skills."
-
+        "⚡ Seeking new challenges and opportunities to further enhance my programming skills.",
       ],
       softwareSkills: [
         // {
@@ -91,7 +90,6 @@ const skills = {
         //   style: {
         //     backgroundColor: "transparent",
         //   },
-
       ],
     },
     {
@@ -236,14 +234,14 @@ const competitiveSites = {
   //     },
   //     //   profileLink: "https://leetcode.com/layman_brother/",
   //   },
-    // {
-    //   siteName: "HackerRank",
-    //   iconifyClassname: "simple-icons:hackerrank",
-    //   style: {
-    //     color: "#2EC866",
-    //   },
-    //   profileLink: "https://www.hackerrank.com/layman_brother",
-    // },
+  // {
+  //   siteName: "HackerRank",
+  //   iconifyClassname: "simple-icons:hackerrank",
+  //   style: {
+  //     color: "#2EC866",
+  //   },
+  //   profileLink: "https://www.hackerrank.com/layman_brother",
+  // },
   //],
 };
 

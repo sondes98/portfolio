@@ -34,36 +34,24 @@ export default class Main extends Component {
                   <Education {...props} theme={this.props.theme} />
                 )}
               />
-              {/* <Route
-                path="/opensource"
-                render={(props) => (
-                  <Opensource {...props} theme={this.props.theme} />
-                )}
-              /> */}
               <Route
                 path="/contact"
                 render={(props) => (
                   <Contact {...props} theme={this.props.theme} />
                 )}
               />
-              {/* <Route
-                path="/splash"
-                render={(props) => (
-                  <Splash {...props} theme={this.props.theme} />
-                )}
-              /> */}
               <Route
                 path="/projects"
                 render={(props) => (
                   <Projects {...props} theme={this.props.theme} />
                 )}
               />
-              <Route
+              {/* <Route
                 path="/experience"
                 render={(props) => (
                   <Experience {...props} theme={this.props.theme} />
                 )}
-              />
+              /> */}
               <Route
                 path="*"
                 render={(props) => (
@@ -89,6 +77,12 @@ export default class Main extends Component {
                 render={(props) => <Home {...props} theme={this.props.theme} />}
               />
               <Route
+                path="/education"
+                render={(props) => (
+                  <Education {...props} theme={this.props.theme} />
+                )}
+              />
+              <Route
                 path="/experience"
                 exact
                 render={(props) => (
@@ -96,27 +90,15 @@ export default class Main extends Component {
                 )}
               />
               <Route
-                path="/education"
+                path="/projects"
                 render={(props) => (
-                  <Education {...props} theme={this.props.theme} />
-                )}
-              />
-              <Route
-                path="/opensource"
-                render={(props) => (
-                  <Opensource {...props} theme={this.props.theme} />
+                  <Projects {...props} theme={this.props.theme} />
                 )}
               />
               <Route
                 path="/contact"
                 render={(props) => (
                   <Contact {...props} theme={this.props.theme} />
-                )}
-              />
-              <Route
-                path="/projects"
-                render={(props) => (
-                  <Projects {...props} theme={this.props.theme} />
                 )}
               />
             </Switch>

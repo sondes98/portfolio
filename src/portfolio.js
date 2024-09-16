@@ -1,13 +1,13 @@
+import React from "react";
 // Website related settings
 const settings = {
   isSplash: true, // false if you don't want Splash screen.
 };
 
-//SEO Related settings
 const seo = {
   title: "Sondes's Portfolio",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "Aspiring data engineer and AI enthusiast with hands-on experience in machine learning, data analysis, and predictive modeling. Passionate about leveraging data-driven insights to build scalable, impactful solutions in the world of AI and big data.",
   og: {
     title: "Sondes Ahmed Portfolio",
     type: "website",
@@ -19,11 +19,11 @@ const seo = {
 const greeting = {
   title: "Sondes Ahmed",
   logo_name: "A.Sondes",
-  nickname: "Interested in learning & knowing more",
+  nickname: "AI and Data Enthusiast",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "Aspiring data engineer with a passion for artificial intelligence, machine learning, and predictive analytics. Dedicated to leveraging data-driven insights to create innovative and impactful solutions.",
   resumeLink:
-    "https://drive.google.com/file/d/1ZOhwbEYarpJCBCl7mpL_UGd5rZpvmkyY/view?usp=drive_link",
+    "https://drive.google.com/file/d/1gJmd9rMwHBn3aoDSg0Bn8UglGrRIO29f/view?usp=drive_link",
   portfolio_repository: "https://github.com/sondes98",
   githubProfile: "https://github.com/sondes98",
 };
@@ -76,28 +76,150 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Software Engineering Student",
+      title:
+        "Computer Science Engineering Student Specialized in Big Data & Business Intelligence",
       fileName: "Engineer",
       skills: [
-        "⚡ Prospective software engineer, I have a strong passion for the vast and dynamic world of the web.",
-        "⚡ Eager to dive into web development, explore its boundless potential, and utilize my skills to create innovative and impactful solutions for the web.",
-        "⚡ Seeking new challenges and opportunities to further enhance my programming skills.",
+        "⚡ Final year Computer Science engineering student with a specialization in Big Data & Business Intelligence.",
+        "⚡ Hands-on experience with machine learning and AI-related academic and personal projects.",
+        "⚡ Passionate about data engineering, eager to tackle complex data challenges, and skilled in building scalable data solutions.",
+        "⚡ Certified in Microsoft Azure AZ-900 and progressing through the Microsoft Student Ambassador Program, focusing on cloud computing, AI services, and generative AI.",
       ],
       softwareSkills: [
-        // {
-        //   skillName: "Tensorflow",
-        //   fontAwesomeClassname: "logos-tensorflow",
-        //   style: {
-        //     backgroundColor: "transparent",
-        //   },
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "simple-icons:python",
+          style: {
+            color: "#3776AB",
+          },
+        },
+
+        {
+          skillName: "Pandas",
+          fontAwesomeClassname: "simple-icons:pandas",
+          style: {
+            color: "#150458",
+          },
+        },
+        {
+          skillName: "NumPy",
+          fontAwesomeClassname: "simple-icons:numpy",
+          style: {
+            color: "#013243",
+          },
+        },
+        {
+          skillName: "PowerBI",
+          fontAwesomeClassname: "simple-icons:powerbi",
+          style: {
+            color: "#F2C300", // Yellow color for PowerBI
+          },
+        },
+      ],
+    },
+    {
+      title: "Big Data & Business Intelligence",
+      fileName: "CloudInfraImg",
+      skills: [
+        "⚡ Proficient in data analysis, predictive modeling, and data mining techniques.",
+        "⚡ Developed and deployed machine learning models for business problems such as churn prediction, fraud detection, and anomaly detection.",
+        "⚡ Experienced in data extraction, transformation, and loading (ETL) processes using tools like Talend.",
+        "⚡ Skilled in working with big data technologies such as Hadoop and Spark for large-scale data processing.",
+        "⚡ Proficient in building data pipelines, integrating data sources, and performing data visualizations for business insights.",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Talend",
+          fontAwesomeClassname: "simple-icons:talend",
+          style: {
+            color: "#FF9900",
+          },
+        },
+        {
+          skillName: "MongoDB",
+          fontAwesomeClassname: "simple-icons:mongodb",
+          style: {
+            color: "#47A248",
+          },
+        },
+        {
+          skillName: "MySQL",
+          fontAwesomeClassname: "simple-icons:mysql",
+          style: {
+            color: "#4479A1",
+          },
+        },
+        {
+          skillName: "Apache Hadoop",
+          fontAwesomeClassname: "simple-icons:apachehadoop",
+          style: {
+            color: "#66CCFF",
+          },
+        },
+        {
+          skillName: "Apache Spark",
+          fontAwesomeClassname: "simple-icons:apachespark",
+          style: {
+            color: "#E25A1C",
+          },
+        },
+      ],
+    },
+    {
+      title: "DevOps & Cloud Infrastructure",
+      fileName: "CloudInfraImg",
+      skills: [
+        "⚡ Adept at setting up and managing cloud infrastructure on AWS and GCP.",
+        "⚡ Experience with Docker and Kubernetes for containerization and orchestration of applications.",
+        "⚡ Knowledgeable in deploying deep learning models on cloud platforms to run on mobile devices.",
+        "⚡ Skilled in setting up CI/CD pipelines using Jenkins and deploying scalable applications.",
+      ],
+      softwareSkills: [
+        {
+          skillName: "AWS",
+          fontAwesomeClassname: "simple-icons:amazonaws",
+          style: {
+            color: "#FF9900",
+          },
+        },
+        {
+          skillName: "GCP",
+          fontAwesomeClassname: "simple-icons:googlecloud",
+          style: {
+            color: "#4285F4",
+          },
+        },
+        {
+          skillName: "Docker",
+          fontAwesomeClassname: "simple-icons:docker",
+          style: {
+            color: "#1488C6",
+          },
+        },
+        {
+          skillName: "Kubernetes",
+          fontAwesomeClassname: "simple-icons:kubernetes",
+          style: {
+            color: "#326CE5",
+          },
+        },
+        {
+          skillName: "Jenkins",
+          fontAwesomeClassname: "simple-icons:jenkins",
+          style: {
+            color: "#D24939",
+          },
+        },
       ],
     },
     {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux.",
-        "⚡ Creating application backend in Node, Express & Mongo.",
+        "⚡ Skilled in building responsive front-end applications using React and Redux.",
+        "⚡ Proficient in developing backend services using Node.js, Express, and MongoDB.",
+        "⚡ Hands-on experience with RESTful API development and integration with front-end services.",
+        "⚡ Knowledgeable in version control and code deployment using Git and GitHub.",
       ],
       softwareSkills: [
         {
@@ -112,13 +234,6 @@ const skills = {
           fontAwesomeClassname: "fa-css3",
           style: {
             color: "#1572B6",
-          },
-        },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
           },
         },
         {
@@ -138,7 +253,7 @@ const skills = {
         },
         {
           skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
+          fontAwesomeClassname: "simple-icons:node-js",
           style: {
             color: "#339933",
           },
@@ -150,72 +265,18 @@ const skills = {
             color: "#CB3837",
           },
         },
-      ],
-    },
-    {
-      title: "DevOps",
-      fileName: "CloudInfraImg",
-      skills: [
-        "⚡initiated to DevOps with a specific roadmap.",
-        // "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        // "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        // "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
-      ],
-      softwareSkills: [
-        // {
-        //   skillName: "GCP",
-        //   fontAwesomeClassname: "simple-icons:googlecloud",
-        //   style: {
-        //     color: "#4285F4",
-        //   },
-        // },
         {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
+          skillName: "ExpressJS",
+          fontAwesomeClassname: "simple-icons:express",
           style: {
-            color: "#FF9900",
-          },
-        },
-        // {
-        //   skillName: "Azure",
-        //   fontAwesomeClassname: "simple-icons:microsoftazure",
-        //   style: {
-        //     color: "#0089D6",
-        //   },
-        // },
-        // {
-        //   skillName: "Firebase",
-        //   fontAwesomeClassname: "simple-icons:firebase",
-        //   style: {
-        //     color: "#FFCA28",
-        //   },
-        // },
-        // {
-        //   skillName: "PostgreSQL",
-        //   fontAwesomeClassname: "simple-icons:postgresql",
-        //   style: {
-        //     color: "#336791",
-        //   },
-        // },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
+            color: "#000000",
           },
         },
         {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
+          skillName: "Git",
+          fontAwesomeClassname: "simple-icons:git",
           style: {
-            color: "#1488C6",
-          },
-        },
-        {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
-          style: {
-            color: "#326CE5",
+            color: "#F05032",
           },
         },
       ],
@@ -254,20 +315,22 @@ const degrees = {
       alt_name: "Iteam",
       duration: "2022 - 2025",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects.",
-        //   "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
+        "⚡ the 1st year I have done courses in OOP.",
+        "⚡ I have done courses on Artificial Intelligence, Machine Learning, Cloud Computing and Full Stack Development.",
         //   "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "NB: here i will list all the cursus groupped by semester",
       ],
+
       website_link: "https://iteam-univ.tn/",
     },
     {
       title: "ISET Kairouan",
-      subtitle: "Senior Technician in electrical engineering",
+      subtitle: "Senior Technician in software engineering",
       logo_path: "iset.png",
       alt_name: "univ tun",
       duration: "2018 - 2020",
       descriptions: [
-        "⚡ I have taken varity of courses related to electrical engineering.",
+        "⚡ I have taken varity basics of courses related to software engineering.",
         // "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
         // "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
       ],
@@ -276,23 +339,60 @@ const degrees = {
   ],
 };
 
-const certifications = {
-  certifications: [
+const trainings = {
+  trainings: [
     {
-      title: "DevOps",
+      title: "Microsoft Student Ambassador Training",
+      subtitle: "Microsoft",
+      logo_path: "gmc.png",
+      certificate_link: "",
+      alt_name: "GMC",
+      color_code: "#8C151599",
+      descriptions: [
+        "⚡ Milestone 1:Microsoft Azure Fundamentals: Cloud Concepts.",
+        "⚡ Milestone 2:Microsoft Azure Fundamentals: AI Overview.",
+        "⚡ Milestone 3:Microsoft for startups: Buid an Early-Stage Startup.",
+        "⚡ Milestone 2:Microsoft Azure Fundamentals: Generative AI.",
+        "⚡ Milestone 3:Microsoft for startups: Transform your business with AI.",
+      ],
+    },
+    {
+      title: "Big Data Hadoop and Spark developer Training",
       subtitle: "- Go My Code",
       logo_path: "gmc.png",
       certificate_link: "",
       alt_name: "GMC",
       color_code: "#8C151599",
+      descriptions: [
+        "⚡ Gained in-depth expertise in the Hadoop ecosystem, including HDFS, MapReduce, Hive, and HBase.",
+        "⚡ Developed hands-on skills in Apache Spark for efficient data processing, real-time streaming, and machine learning.",
+      ],
     },
     {
-      title: "FullStack JavaScript",
+      title: "DevOps Bootcamp",
+      subtitle: "- Go My Code",
+      logo_path: "gmc.png",
+      certificate_link: "",
+      alt_name: "GMC",
+      color_code: "#8C151599",
+      descriptions: [
+        "⚡ Acquired hands-on experience in continuous integration and deployement throughGitHub, Docker, and Jenkins.",
+        "⚡ Strengthened skills in monitoring with Nagios and advanced container orchestration with Kubernetes.",
+        // "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
+      ],
+    },
+    {
+      title: "FullStack JavaScript Bootcamp",
       subtitle: "- Go My Code",
       logo_path: "gmc.png",
       certificate_link: "",
       alt_name: "GMC",
       color_code: "#00000099",
+      descriptions: [
+        "⚡ Excelled in the MERN stack (MongoDB, Express.js, React, Node.js) for full-stack web development. Engineered comprehensive applications, emphasizing both front-end and back-end technologies.",
+        // "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
+        // "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
+      ],
     },
   ],
 };
@@ -302,21 +402,48 @@ const experience = {
   title: "Experience",
   subtitle: "Work and Internship",
   description:
-    "Passionate aspiring full stack developer dedicated to crafting seamless user experiences through creative problem-solving. Explore my journey of growth and innovation in web development.",
+    "Passionate aspiring full stack developer and data engineer, dedicated to crafting seamless user experiences and powerful data-driven solutions. Explore my journey of growth and innovation in web development, AI, and business analytics.",
   header_image_path: "experience.png",
   sections: [
     {
-      title: "intership",
+      title: "Internship",
       experiences: [
         {
-          title: "Web Developer",
+          title: "Artificial Intelligence Intern",
+          company: "CodSoft",
+          company_url: "",
+          // logo_path: "",
+          duration: "08/2024 - 09/2024",
+          location: "Remote",
+          description:
+            "⚡ Contributed to the development of a Tic-Tac-Toe AI game using Python. Focused on implementing AI algorithms, optimizing game logic, and improving user interaction. Gained valuable experience in applying machine learning techniques to real-world projects.",
+          color: "#0879bf",
+        },
+        {
+          title: "Data Science & Business Analytics Intern",
+          company: "The Sparks Foundation",
+          company_url: "",
+          // logo_path: "",
+          duration: "07/2024 - 08/2024",
+          location: "Remote",
+          description: [
+            "⚡ Conducted comprehensive retail data analysis using Power BI, enhancing sales and profitability insights, while optimizing discount strategies.",
+            <br />,
+            "⚡ Applied K-Means clustering on the Iris dataset, determined optimal clusters using the Elbow method, and visualized findings with Seaborn.",
+            <br />,
+            "⚡ Developed a linear regression model to predict student scores based on study hours, visualized using Matplotlib, achieving an accuracy improvement of 10%.",
+          ],
+          color: "#0879bf",
+        },
+        {
+          title: "Web Developer Intern",
           company: "Formevo",
           company_url: "",
           // logo_path: "",
           duration: "08/2023 - 09/2023",
           location: "Tunis",
           description:
-            "During my internship, I actively contributed to an engaging e-learning project by designing and developing user-friendly interfaces. Through this experience, I honed my skills in crafting intuitive user interfaces and collaborating within a dynamic team environment. My work played a vital role in enhancing the project's overall functionality and user experience.",
+            "⚡ Developed an e-learning application using the MERN stack, integrating front-end (React) and back-end (Node.js, Express, MongoDB) functionalities. Focused on improving the user interface, ensuring smooth data flow, and enhancing the overall performance.",
           color: "#0879bf",
         },
       ],
@@ -362,7 +489,7 @@ export {
   skills,
   competitiveSites,
   degrees,
-  certifications,
+  trainings,
   experience,
   projectsHeader,
   contactPageData,

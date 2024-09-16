@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import "./CertificationCard.css";
+import "./TrainingsCard.css";
 import { Fade } from "react-reveal";
 
-class CertificationCard extends Component {
+class TrainingsCard extends Component {
   render() {
-    const certificate = this.props.certificate;
+    const trainings = this.props.trainings;
     const theme = this.props.theme;
     return (
       <Fade bottom duration={2000} distance="20px">
@@ -14,30 +14,36 @@ class CertificationCard extends Component {
               <div className="content-overlay"></div>
               <div
                 className="cert-header"
-                style={{ backgroundColor: certificate.color_code }}
+                style={{ backgroundColor: trainings.color_code }}
               >
                 <img
                   className="logo_img"
-                  src={require(`../../assests/images/${certificate.logo_path}`)}
-                  alt={certificate.alt_name}
+                  src={require(`../../assests/images/${trainings.logo_path}`)}
+                  alt={trainings.alt_name}
                 />
               </div>
               <div className="content-details fadeIn-top">
                 <h3 className="content-title" style={{ color: theme.body }}>
-                  Certificate
+                  Trainings
                 </h3>
               </div>
             </href>
           </div>
           <div className="cert-body">
             <h2 className="cert-body-title" style={{ color: theme.text }}>
-              {certificate.title}
+              {trainings.title}
             </h2>
             <h3
               className="cert-body-subtitle"
               style={{ color: theme.secondaryText }}
             >
-              {certificate.subtitle}
+              {trainings.subtitle}
+            </h3>
+            <h3
+              className="cert-body-description"
+              style={{ color: theme.secondaryText }}
+            >
+              {trainings.descriptions}
             </h3>
           </div>
         </div>
@@ -46,4 +52,4 @@ class CertificationCard extends Component {
   }
 }
 
-export default CertificationCard;
+export default TrainingsCard;

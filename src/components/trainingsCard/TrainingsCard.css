@@ -38,6 +38,13 @@
   color: #808080;
   margin: 10px;
 }
+.cert-body-description {
+  font-family: "Google Sans Regular";
+  font-size: 14px;
+  color: #808080;
+  margin: 10px;
+  font-weight: 100;
+}
 
 .content {
   position: relative;

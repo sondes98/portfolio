@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import "./Certifications.css";
+import "./Trainings.css";
 import { Fade } from "react-reveal";
-import { certifications } from "../../portfolio";
-import CertificationCard from "../../components/certificationCard/CertificationCard";
+import { trainings } from "../../portfolio";
+import TrainingsCard from "../../components/trainingsCard/TrainingsCard";
 
-class Certifications extends Component {
+class Trainings extends Component {
   render() {
     const theme = this.props.theme;
     return (
@@ -12,13 +12,13 @@ class Certifications extends Component {
         <div className="certs-header-div">
           <Fade bottom duration={2000} distance="20px">
             <h1 className="certs-header" style={{ color: theme.text }}>
-              Certifications
+              Trainings
             </h1>
           </Fade>
         </div>
         <div className="certs-body-div">
-          {certifications.certifications.map((cert) => {
-            return <CertificationCard certificate={cert} theme={theme} />;
+          {trainings.trainings.map((cert) => {
+            return <TrainingsCard trainings={cert} theme={theme} />;
           })}
         </div>
       </div>
@@ -26,4 +26,4 @@ class Certifications extends Component {
   }
 }
 
-export default Certifications;
+export default Trainings;

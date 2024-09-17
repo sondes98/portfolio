@@ -252,13 +252,6 @@ const skills = {
           },
         },
         {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-js",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
           skillName: "NPM",
           fontAwesomeClassname: "simple-icons:npm",
           style: {
@@ -309,31 +302,31 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "Iteam university",
-      subtitle: "Software Engineer",
+      title: "ITEAM University",
+      subtitle: "Software Engineer (Final Year)",
       logo_path: "iteam.png",
       alt_name: "Iteam",
       duration: "2022 - 2025",
       descriptions: [
-        "⚡ the 1st year I have done courses in OOP.",
-        "⚡ I have done courses on Artificial Intelligence, Machine Learning, Cloud Computing and Full Stack Development.",
-        //   "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
-        "NB: here i will list all the cursus groupped by semester",
+        "⚡ Completed coursework in Object-Oriented Programming (OOP) during the first year.",
+        "⚡ Studied Artificial Intelligence, Machine Learning, Cloud Computing, and Business Intelligence.",
+        "⚡ Engaged in hands-on projects involving big data technologies and practical business intelligence applications.",
       ],
-
       website_link: "https://iteam-univ.tn/",
     },
     {
       title: "ISET Kairouan",
-      subtitle: "Senior Technician in software engineering",
+      subtitle: "Senior Technician in Electrical Engineering",
       logo_path: "iset.png",
-      alt_name: "univ tun",
+      alt_name: "Iset Kairouan",
       duration: "2018 - 2020",
+
       descriptions: [
-        "⚡ I have taken varity basics of courses related to software engineering.",
-        // "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
-        // "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
+        "⚡ Completed various foundational courses in electrical engineering.",
+        "⚡ Engaged in research assistantship with a focus on algorithm development in Graph Machine Learning and Network Science.",
+        "⚡ Contributed to multimedia projects, including documentary films and interviews.",
       ],
+
       website_link: "",
     },
   ],
@@ -344,54 +337,63 @@ const trainings = {
     {
       title: "Microsoft Student Ambassador Training",
       subtitle: "Microsoft",
-      logo_path: "gmc.png",
+      logo_path: "Microsoft.png",
       certificate_link: "",
-      alt_name: "GMC",
-      color_code: "#8C151599",
+      alt_name: "Microsoft",
+      color_code: "#6C41A1", // Updated color code for Microsoft
       descriptions: [
-        "⚡ Milestone 1:Microsoft Azure Fundamentals: Cloud Concepts.",
-        "⚡ Milestone 2:Microsoft Azure Fundamentals: AI Overview.",
-        "⚡ Milestone 3:Microsoft for startups: Buid an Early-Stage Startup.",
-        "⚡ Milestone 2:Microsoft Azure Fundamentals: Generative AI.",
-        "⚡ Milestone 3:Microsoft for startups: Transform your business with AI.",
+        "⚡ Milestone 1: Microsoft Azure Fundamentals: Cloud Concepts.",
+        <br />,
+
+        "⚡ Milestone 2: Microsoft Azure Fundamentals: AI Overview.",
+        <br />,
+
+        "⚡ Milestone 3: Microsoft for Startups: Build an Early-Stage Startup.",
+        <br />,
+
+        "⚡ Milestone 4: Microsoft Azure Fundamentals: Generative AI.",
+        <br />,
+
+        "⚡ Milestone 5: Microsoft for Startups: Transform Your Business with AI.",
       ],
     },
     {
-      title: "Big Data Hadoop and Spark developer Training",
-      subtitle: "- Go My Code",
-      logo_path: "gmc.png",
+      title: "Big Data Hadoop and Spark Developer Training",
+      subtitle: "Go My Code",
+      logo_path: "simplilearn.png",
       certificate_link: "",
-      alt_name: "GMC",
-      color_code: "#8C151599",
+      alt_name: "Go My Code",
+      color_code: "#5C7F8C", // Updated color code for Go My Code
       descriptions: [
         "⚡ Gained in-depth expertise in the Hadoop ecosystem, including HDFS, MapReduce, Hive, and HBase.",
+        <br />,
+
         "⚡ Developed hands-on skills in Apache Spark for efficient data processing, real-time streaming, and machine learning.",
       ],
     },
     {
       title: "DevOps Bootcamp",
-      subtitle: "- Go My Code",
+      subtitle: "Go My Code",
       logo_path: "gmc.png",
       certificate_link: "",
-      alt_name: "GMC",
-      color_code: "#8C151599",
+      alt_name: "Go My Code",
+      color_code: "#4B9ABF", // Updated color code for Go My Code
       descriptions: [
-        "⚡ Acquired hands-on experience in continuous integration and deployement throughGitHub, Docker, and Jenkins.",
+        "⚡ Acquired hands-on experience in continuous integration and deployment through GitHub, Docker, and Jenkins.",
+        <br />,
+
         "⚡ Strengthened skills in monitoring with Nagios and advanced container orchestration with Kubernetes.",
-        // "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
       ],
     },
     {
-      title: "FullStack JavaScript Bootcamp",
-      subtitle: "- Go My Code",
+      title: "Full Stack JavaScript Bootcamp",
+      subtitle: "Go My Code",
       logo_path: "gmc.png",
       certificate_link: "",
-      alt_name: "GMC",
-      color_code: "#00000099",
+      alt_name: "Go My Code",
+      color_code: "#6CC24A", // Updated color code for Go My Code
       descriptions: [
         "⚡ Excelled in the MERN stack (MongoDB, Express.js, React, Node.js) for full-stack web development. Engineered comprehensive applications, emphasizing both front-end and back-end technologies.",
-        // "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
-        // "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
       ],
     },
   ],

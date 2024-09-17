@@ -18,8 +18,8 @@
 
 .logo_img {
   margin: 3px;
-  width: auto;
-  height: 100px;
+  width: 200px; /* Adjust the width as needed */
+  height: 100px; /* Maintain aspect ratio */
 }
 
 .cert-body {
@@ -39,6 +39,7 @@
   margin: 10px;
 }
 .cert-body-description {
+  text-align: left;
   font-family: "Google Sans Regular";
   font-size: 14px;
   color: #808080;
@@ -68,10 +69,6 @@
   transition: all 0.4s ease-in-out 0s;
 }
 
-.content:hover .content-overlay {
-  opacity: 1;
-}
-
 .content-details {
   position: absolute;
   text-align: center;
@@ -87,12 +84,6 @@
   -webkit-transition: all 0.3s ease-in-out 0s;
   -moz-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
-}
-
-.content:hover .content-details {
-  top: 50%;
-  left: 50%;
-  opacity: 1;
 }
 
 .content-details h3 {

@@ -13,7 +13,7 @@
 
 .card-subtitle {
   font-family: "Google Sans Medium";
-  font-size: 18px;
+  font-size: 15px;
   /* color: #000000; */
   margin-top: 7px;
   margin-bottom: 5px;
@@ -21,14 +21,10 @@
 
 .card-img {
   display: block;
-  width: 200px;
-  height: 150px;
-  /* border-radius: 50%; */
-  /* border: 1px solid #d9dbdf; */
-  /* box-shadow: 5px 5px 5px #d9dbdf; */
-  margin:10px;
-  padding: 10px;
-
+  width: 150px;
+  height: 100px;
+  margin: 5px;
+  padding: 5px;
 }
 
 .body-header {
@@ -70,6 +66,7 @@
   padding-left: 10px;
   padding-right: 10px;
   font-family: "Google Sans Regular";
+  font-size: 15px;
 }
 
 .card-body {
@@ -144,6 +141,6 @@
   }
 
   .card-subtitle {
-    font-size: 16px;
+    font-size: 13px;
   }
 }

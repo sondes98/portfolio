@@ -1,6 +1,66 @@
 {
   "data": [
     {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      "name": "Linear Regression Model",
+      "createdAt": "2024-07-05",
+      "url": "https://github.com/sondes98/LinearRegression",
+      "description": "Prediction using a supervised machine learning model, linear regression.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "jupyter",
+          "iconifyClass": "logos-jupyter"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkzMjcyMjI5Njk=",
+      "name": "Netflix Recommendation System",
+      "createdAt": "2024-08-28T06:36:41Z",
+      "url": "https://github.com/sondes98/codsoft/blob/main/moviesRec.py",
+      "description": "A content-based recommendation system using TF-IDF and cosine similarity to suggest Netflix titles based on user input for content type, genre, and rating. It processes title metadata to deliver personalized recommendations.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "python",
+          "iconifyClass": "logos-python"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOGcPKSQ",
+      "name": "Voice-Assisted Chatbot with Reminders and YouTube Integration",
+      "createdAt": "2024-08-09",
+      "url": "https://github.com/sondes98/codsoft/blob/main/chatbot.py",
+      "description": "This Python project implements a voice-assisted chatbot using pyttsx3 for text-to-speech, pywhatkit for YouTube search, and wikipedia for quick information lookup. The chatbot can respond to user queries, tell jokes, provide current time, and set reminders. It also features the ability to play YouTube videos based on user input and offer brief Wikipedia summaries.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "python",
+          "iconifyClass": "logos-python"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkzMjcyMjI5Njk=",
+      "name": "Tic-Tac-Toe Game with AI (Minimax Algorithm)",
+      "createdAt": "2024-08-15",
+      "url": "https://github.com/sondes98/codsoft/blob/main/Tic-Tac-Toe.py",
+      "description": "This Python program implements a simple Tic-Tac-Toe game where a human plays against an AI. The AI uses the Minimax algorithm to calculate the optimal move for each turn. The game is played on a 3x3 grid, and the human player uses 'X' while the AI uses 'O'. The program checks for a winner or draw after each move.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "python",
+          "iconifyClass": "logos-python"
+        }
+      ]
+    },
+    {
       "id": "MDEwOlJlcG9zaXRvcnkzMjU5NDM1MTE=",
       "name": "DEWI",
       "createdAt": "2023-01-30T08:31:51Z",
@@ -23,205 +83,6 @@
         {
           "name": "JavaScript",
           "iconifyClass": "logos-javascript"
-        }
-      ]
-    },
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "STB SICAR",
-      "createdAt": "2022-01-03T16:26:54Z",
-      "url": "https://github.com/refkahaddaji/stbSicar",
-      "description": "🔥.",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        },
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        }
-      ]
-    },
-    {
-      "id": "R_kgDOG_vYHA",
-      "name": "TALKING",
-      "createdAt": "2022-06-17T20:41:33Z",
-      "url": "https://github.com/sondes98/TALKING",
-      "description": "📦Chat-real-time application uses socket.io",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "react",
-          "iconifyClass": "logos-react"
-        },
-        {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        },
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        },
-        {
-          "name": "mongo",
-          "iconifyClass": "logos-mongodb"
-        }
-      ]
-    },
-    {
-      "id": "R_kgDOG0_8uQ",
-      "name": "ROOM",
-      "createdAt": "2022-06-17T14:50:20Z",
-      "url": "https://github.com/sondes98/ROOM",
-      "description": "🌀 Simple ROOM chat-real-time uses socket.io.",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "react",
-          "iconifyClass": "logos-react"
-        },
-        {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        },
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        }
-      ]
-    },
-    {
-      "id": "R_kgDOGcPKSQ",
-      "name": "Teddy Bear",
-      "createdAt": "2021-11-26T17:56:07Z",
-      "url": "https://github.com/sondes98/kindergarten",
-      "description": "kinder gaeten application for parents.",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "react",
-          "iconifyClass": "logos-react"
-        },
-        {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        },
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        },
-        {
-          "name": "mongo",
-          "iconifyClass": "logos-mongodb"
-        }
-      ]
-    },
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkzMjcyMjI5Njk=",
-      "name": " Movie Application",
-      "createdAt": "2022-07-28T06:36:41Z",
-      "url": "https://github.com/sondes98/hooks-checkpoint",
-      "description": "🚀 Movie App who gets movie info from The Movie DB API using React and - React Hooks - Axios - React-rating-starts-component - React-router-dom - React-player.",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "react",
-          "iconifyClass": "logos-react"
-        },
-        {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        },
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        },
-        {
-          "name": "mongo",
-          "iconifyClass": "logos-mongodb"
-        }
-      ]
-    },
-    
-    {
-      "id": "R_kgDOGcPKSQ",
-      "name": "Teddy Bear",
-      "createdAt": "2021-11-26T17:56:07Z",
-      "url": "https://github.com/sondes98/kindergarten",
-      "description": "kinder gaeten application for parents.",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "react",
-          "iconifyClass": "logos-react"
-        },
-        {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        },
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        },
-        {
-          "name": "mongo",
-          "iconifyClass": "logos-mongodb"
-        }
-      ]
-    },
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkzMjcyMjI5Njk=",
-      "name": " Movie Application",
-      "createdAt": "2022-07-28T06:36:41Z",
-      "url": "https://github.com/sondes98/hooks-checkpoint",
-      "description": "🚀 Movie App who gets movie info from The Movie DB API using React and - React Hooks - Axios - React-rating-starts-component - React-router-dom - React-player.",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "react",
-          "iconifyClass": "logos-react"
-        },
-        {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        },
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        },
-        {
-          "name": "mongo",
-          "iconifyClass": "logos-mongodb"
         }
       ]
     }

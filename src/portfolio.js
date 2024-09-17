@@ -169,17 +169,17 @@ const skills = {
       title: "DevOps & Cloud Infrastructure",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Adept at setting up and managing cloud infrastructure on AWS and GCP.",
+        "⚡ Adept at setting up and managing cloud infrastructure on Azure.",
         "⚡ Experience with Docker and Kubernetes for containerization and orchestration of applications.",
         "⚡ Knowledgeable in deploying deep learning models on cloud platforms to run on mobile devices.",
         "⚡ Skilled in setting up CI/CD pipelines using Jenkins and deploying scalable applications.",
       ],
       softwareSkills: [
         {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
+          skillName: "Azure",
+          fontAwesomeClassname: "simple-icons:microsoftazure",
           style: {
-            color: "#FF9900",
+            color: "#0078D4", // Updated to Azure's color
           },
         },
         {
